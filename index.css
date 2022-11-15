@@ -1,0 +1,109 @@
+*{
+    width: 1325px;
+    max-width: 1325px;
+   
+}
+body{
+    background-image: url(fondochido2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    
+}
+
+.titulo1{
+    position:absolute;
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    background-color: transparent;
+    font-weight: 300;
+    width: 370px;
+}
+
+.titulo2{   
+    position:absolute;
+    top: 15px;
+    left: 1130px;
+    color: rgb(252, 252, 252);
+    font-size: 40px;
+    background-color: transparent;
+    font-weight: 300;
+    width: 370px;
+    
+}
+.contenedor1{
+
+    position: absolute;
+    background-color: whitesmoke;
+    top: 200px;
+    left: 175px;
+    width: 500px;
+    padding-bottom: 20px;
+    background-color:#4b0081;
+    border-radius: 10px;
+}
+.contenedor2{
+    position: absolute;
+    top: 200px;
+    left: 660px;
+    width: 500px;
+    padding-bottom: 20px;
+    background-color: #4b0081;
+    border-radius: 10px;
+}
+.encabezado{
+    position: relative;
+    background-color: transparent;
+    left: 40px;
+    width: 300px;
+    color: rgb(206, 199, 199);
+}
+.notificaciones{
+    position:relative;
+    width: 420px;
+    height: 270px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+    left: 40px;
+    margin-bottom: 10px;
+}
+.contenedorChat{
+    position:relative;
+    width: 420px;
+    height: 272px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+    left: 40px;
+    margin-bottom: 10px;
+}
+.botonEnvio{
+    background-color:#b8bfc5;
+    position: relative;
+    left: 70px;
+    width: 80px;
+    border-radius: 20px ;
+}
+.mensaje{
+    background-color: whitesmoke;
+    position: relative;
+    left: 50px;
+    width: 300px;
+    border-radius: 20px;
+}
+.usuario{
+    width: 300px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 50px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.avisos{
+    position: relative;
+    font-style: italic;
+    height: 20px;
+    width: 420px;
+    color: #333a3a;
+    background-color: transparent;
+}

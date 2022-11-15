@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chat Grupal</title>
+    <link rel="stylesheet" href="css/index.css" >
+  </head>
+  <body>
+    <div class="titulo1">Chat de sabas</div><div class="titulo2">Bienvenido</div>  
+    <header class="header1">     
+    </header>
+    <div class="contenedor1">
+      <h1 class="encabezado">Usuarios conectados</h1>
+      <div id="notificaciones" class="notificaciones">
+      </div>
+    </div>
+    <div class="contenedor2">
+      <h1 class="encabezado"></h1>
+      <div class="contenedorChat" id="salida">
+        <div class="avisos" id="avisos">
+        </div>
+      </div>
+      <input type="text" class="usuario" id="usuario" placeholder="Usuario" required ><br><br><input type="text" class="mensaje" id="mensaje" placeholder="Mensaje" required><button class="botonEnvio" id="enviar">Enviar</button>
+    </div>
+
+    <script src="js/socket.io.js"></script>
+    <script src="js/logica.js" charset="utf-8"></script>
+  </body>
+</html>
